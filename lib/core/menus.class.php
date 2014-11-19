@@ -72,7 +72,7 @@ class Menus extends Permission {
 		$submenu = array();
 		$subsubmenu = array();
 		$submenu[] = array('name'=>'Karte', 'href'=>'map.php');
-		$subsubmenu[] = array('name'=>'FF-Map 3D', 'href'=>'https://netmon.freifunk-ol.de/ffmap-d3/nodes.html');
+		$subsubmenu[] = array('name'=>'FF-Map 3D', 'href'=>'https://gw02.freifunk-rothenburg.de/ffmap-d3/geomap.html');
 		$submenu[] = $subsubmenu;
 		$menu[] = $submenu;
 		
@@ -81,7 +81,7 @@ class Menus extends Permission {
 		$submenu[] = array('name'=>'Router', 'href'=>'routerlist.php');			
 		$subsubmenu[] = array('name'=>'Neue Router', 'href'=>'routers_trying_to_assign.php');
 		if (Permission::checkPermission(PERM_USER)) //if user is logged in and has permission "user"
-			$subsubmenu[] = array('name'=>'Router anlegen', 'href'=>'routereditor.php?section=new');
+		#	$subsubmenu[] = array('name'=>'Router anlegen', 'href'=>'routereditor.php?section=new');
 		$submenu[] = $subsubmenu;
 		$menu[] = $submenu;
 
@@ -119,6 +119,7 @@ class Menus extends Permission {
 			$submenu = array();
 			$subsubmenu = array();
 			$submenu[] = array('name'=>'Benutzer', 'href'=>'userlist.php');
+			$subsubmenu[] = array('name'=>'Mein Benutzer', 'href'=>'user.php?user_id='.$_SESSION['user_id']);
 			$submenu[] = $subsubmenu;
 			$menu[] = $submenu;
 		}

@@ -1,0 +1,68 @@
+Crawling routers 90-15 (offset-limit) with the following options:
+	ping_count: 4
+	ping_timeout: 1500
+	crawl_timeout: 20
+	network_connection_ipv6_interface: br-ffr
+	interfaces_used_for_crawling: br-meshbr-clientfloh_fixtata_fix
+	actual_crawl_cycle: 13211
+1. crawling Router GotischesHaus3Stock (104)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:eade:27ff:feb7:5276
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:eade:27ff:feb7:5276
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:eade:27ff:feb7:5276%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+2. crawling Router GotischesHaus2Stock (105)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:eade:27ff:feb7:68ac
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:eade:27ff:feb7:68ac
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:eade:27ff:feb7:68ac%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+3. crawling Router GotischesHaus4Stock (107)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:eade:27ff:feb7:6916
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:eade:27ff:feb7:6916
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:eade:27ff:feb7:6916%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+4. crawling Router LaForgeTest (110)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:fad1:11ff:fe24:77be
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:fad1:11ff:fe24:77be
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:fad1:11ff:fe24:77be%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+5. crawling Router testrouter (111)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:eade:27ff:feb7:6930
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:eade:27ff:feb7:6930
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:eade:27ff:feb7:6930%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+The process took 30 seconds

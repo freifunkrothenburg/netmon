@@ -1,0 +1,186 @@
+Crawling routers 15-15 (offset-limit) with the following options:
+	ping_count: 4
+	ping_timeout: 1500
+	crawl_timeout: 20
+	network_connection_ipv6_interface: br-ffr
+	interfaces_used_for_crawling: br-meshbr-clientfloh_fixtata_fix
+	actual_crawl_cycle: 13211
+1. crawling Router ZurSonne (24)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:8a70
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:8a70
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:8a70%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+2. crawling Router StoffmarktMarkusturm (25)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:8ae8
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:8ae8
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:8ae8%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+3. crawling Router CafeEinzigartig (26)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:8ace
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:8ace
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:8ace%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+4. crawling Router EisenKeitel (27)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:ea94:f6ff:fea1:f7e2
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:ea94:f6ff:fea1:f7e2
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:ea94:f6ff:fea1:f7e2%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+5. crawling Router porzellanladen (28)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:c222
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:c222
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:c222%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+6. crawling Router hornburghaus (29)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:c24a:00ff:feb3:f51a
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:c24a:00ff:feb3:f51a
+			Ping was not successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:c24a:00ff:feb3:f51a%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Ping and fetching Crawl-Data was not successfull trying to ping and crawl  next address
+	Fetching IP-Addresses of interface floh_fix
+	Fetching IP-Addresses of interface tata_fix
+7. crawling Router FormPlusFunktion2 (30)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:c24a:00ff:feb3:f4b4
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:c24a:00ff:feb3:f4b4
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:c24a:00ff:feb3:f4b4%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+8. crawling Router FormPlusFunktion (31)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:b05e
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:b05e
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:b05e%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+9. crawling Router ParadiseOne (32)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:5c02
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:5c02
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:5c02%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+10. crawling Router Teddyland (33)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:5f20
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:5f20
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:5f20%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+11. crawling Router TripleSportsBar (34)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:add0
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:add0
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:add0%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+12. crawling Router SchlosskaffeeSchillingsfuerst (35)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:ea94:f6ff:fe90:9356
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:ea94:f6ff:fe90:9356
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:ea94:f6ff:fe90:9356%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+13. crawling Router Schopf (36)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:ea94:f6ff:fea2:23a0
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:ea94:f6ff:fea2:23a0
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:ea94:f6ff:fea2:23a0%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+14. crawling Router Zappstyle (37)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:ea94:f6ff:fea2:231c
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:ea94:f6ff:fea2:231c
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:ea94:f6ff:fea2:231c%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+15. crawling Router HorstBox (38)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:c1a4
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:c1a4
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:c1a4%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+The process took 95 seconds
