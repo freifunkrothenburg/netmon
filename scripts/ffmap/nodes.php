@@ -1,3 +1,5 @@
+
+
 <?php
 	/**
 	 * This Script fetches routers (and later also links) from
@@ -18,7 +20,7 @@
 	$doc = new DOMDocument();
 	
 	//fetch all routers from netmons api
-	$doc->load("http://netmon.freifunk-ol.de/api/rest/routerlist?offset=0&limit=-1&status=online");
+	$doc->load("http://netmon.freifunk-rothenburg.de/api/rest/routerlist?offset=0&limit=-1&status=online");
 	$xpath = new DOMXPath($doc);
 	
 	//get all nodes of type router from the xml and loop through them
@@ -61,7 +63,7 @@
 	
 	//get mac addresses
 	$doc_networkinterfaces = new DOMDocument();
-	$doc_networkinterfaces->load("http://netmon.freifunk-ol.de/api/rest/networkinterfacelist?offset=0&limit=-1");
+	$doc_networkinterfaces->load("http://netmon.freifunk-rothenburg.de/api/rest/networkinterfacelist?offset=0&limit=-1");
 	$xpath_interfaces = new DOMXPath($doc_networkinterfaces);
 	$interfaces = $xpath_interfaces->query('/netmon_response/networkinterfacelist/networkinterface');
 	foreach($interfaces as $interface) {
@@ -78,7 +80,7 @@
 	
 	//get originators
 	$doc_originators = new DOMDocument();
-	$doc_originators->load("http://netmon.freifunk-ol.de/api/rest/originator_status_list?offset=0&limit=-1");
+	$doc_originators->load("http://netmon.freifunk-rohenburg.de/api/rest/originator_status_list?offset=0&limit=-1");
 	$xpath_originators = new DOMXPath($doc_originators);
 	$originator_status_list = $xpath_originators->query('/netmon_response/originator_status_list/originator_status');
 	foreach($originator_status_list as $originator_status) {
@@ -124,3 +126,5 @@
 //	echo "<pre>";
 	echo json_encode($mydocument, JSON_PRETTY_PRINT);
 ?>
+
+

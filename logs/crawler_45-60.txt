@@ -4,8 +4,20 @@ Crawling routers 45-15 (offset-limit) with the following options:
 	crawl_timeout: 20
 	network_connection_ipv6_interface: br-ffr
 	interfaces_used_for_crawling: br-meshbr-clientfloh_fixtata_fix
-	actual_crawl_cycle: 13211
-1. crawling Router SchwarzesLamm5 (56)
+	actual_crawl_cycle: 15571
+1. crawling Router SchwarzesLamm3 (55)
+	Fetching IP-Addresses of interface br-mesh
+	Fetching IP-Addresses of interface br-client
+		Working with fe80:0000:0000:0000:12fe:edff:fecd:88b4
+			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fecd:88b4
+			Ping was successfull trying to crawl
+			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fecd:88b4%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
+			Craw was successfull, online
+			Inserting RouterStatus into DB
+			Inserting Batman advanced interfaces into DB
+			Inserting Batman advanced originators into DB
+			Inserting all other Data into DB
+2. crawling Router SchwarzesLamm5 (56)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fe9c:1bde
@@ -17,7 +29,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-2. crawling Router SchwarzesLamm4 (57)
+3. crawling Router SchwarzesLamm4 (57)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fe9c:1c1e
@@ -29,7 +41,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-3. crawling Router Tauberstube (60)
+4. crawling Router Tauberstube (60)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fe9c:28a4
@@ -41,7 +53,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-4. crawling Router Tauberstube2 (61)
+5. crawling Router Tauberstube2 (61)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fecd:a23c
@@ -53,7 +65,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-5. crawling Router mihome (62)
+6. crawling Router mihome (62)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fecd:bfd4
@@ -65,7 +77,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-6. crawling Router Gerberhaus2Stock (63)
+7. crawling Router Gerberhaus2Stock (63)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:feaf:d4da
@@ -77,19 +89,17 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-7. crawling Router GerberhausErdgeschoss (64)
+8. crawling Router GerberhausErdgeschoss (64)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:feaf:c1e0
 			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:feaf:c1e0
-			Ping was successfull trying to crawl
+			Ping was not successfull trying to crawl
 			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:feaf:c1e0%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
-			Craw was successfull, online
-			Inserting RouterStatus into DB
-			Inserting Batman advanced interfaces into DB
-			Inserting Batman advanced originators into DB
-			Inserting all other Data into DB
-8. crawling Router Gerberhaus1Stock (65)
+			Ping and fetching Crawl-Data was not successfull trying to ping and crawl  next address
+	Fetching IP-Addresses of interface floh_fix
+	Fetching IP-Addresses of interface tata_fix
+9. crawling Router Gerberhaus1Stock (65)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:ea94:f6ff:fea1:f6c8
@@ -101,7 +111,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-9. crawling Router hinterhaus (66)
+10. crawling Router hinterhaus (66)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:c24a:00ff:feb3:f3fa
@@ -113,7 +123,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-10. crawling Router brunnenfest (67)
+11. crawling Router brunnenfest (67)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fe9b:fe78
@@ -125,7 +135,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-11. crawling Router GoldenerGreifen (68)
+12. crawling Router GoldenerGreifen (68)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:6666:b3ff:feaf:d9f6
@@ -137,7 +147,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-12. crawling Router GoldenerGreifen2 (69)
+13. crawling Router GoldenerGreifen2 (69)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fe7b:222c
@@ -149,7 +159,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-13. crawling Router praegerit (71)
+14. crawling Router praegerit (71)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fe9c:2d28
@@ -161,7 +171,7 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-14. crawling Router BaeckereiStriffler (72)
+15. crawling Router BaeckereiStriffler (72)
 	Fetching IP-Addresses of interface br-mesh
 	Fetching IP-Addresses of interface br-client
 		Working with fe80:0000:0000:0000:12fe:edff:fe9c:2d5c
@@ -173,16 +183,4 @@ Crawling routers 45-15 (offset-limit) with the following options:
 			Inserting Batman advanced interfaces into DB
 			Inserting Batman advanced originators into DB
 			Inserting all other Data into DB
-15. crawling Router HotelSiebersturm1 (73)
-	Fetching IP-Addresses of interface br-mesh
-	Fetching IP-Addresses of interface br-client
-		Working with fe80:0000:0000:0000:12fe:edff:fe9c:2e48
-			ping6 -c 4 -w 7500 -W 1500 -I br-ffr fe80:0000:0000:0000:12fe:edff:fe9c:2e48
-			Ping was successfull trying to crawl
-			curl -s --max-time 20 -g http://[fe80:0000:0000:0000:12fe:edff:fe9c:2e48%25$(cat /sys/class/net/br-ffr/ifindex)]/node.data
-			Craw was successfull, online
-			Inserting RouterStatus into DB
-			Inserting Batman advanced interfaces into DB
-			Inserting Batman advanced originators into DB
-			Inserting all other Data into DB
-The process took 77 seconds
+The process took 104 seconds

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-11-18 19:10:52
+<?php /* Smarty version Smarty-3.1.14, created on 2014-12-05 06:58:10
          compiled from "/var/www/netmon/templates/base/html/header.tpl.html" */ ?>
 <?php /*%%SmartyHeaderCode:25099911546a3949cdd2f6-14441039%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '4d45f1a2bf6f5dc31ab1bfe15f6d750d62c16c25' => 
     array (
       0 => '/var/www/netmon/templates/base/html/header.tpl.html',
-      1 => 1416334248,
+      1 => 1417759087,
       2 => 'file',
     ),
   ),
@@ -104,7 +104,9 @@ $_smarty_tpl->tpl_vars['menu']->_loop = true;
 			<!--	<li><a href="http://blog.freifunk-ol.de/">Neues</a></li>
 				<li><a href="http://wiki.freifunk-ol.de/">Informationen</a></li>
 				<li><a href="http://wiki.freifunk-ol.de/index.php?title=Kontakt">Kontakt</a></li> -->
-				<li id="current"><a href="#">Netzwerk</a></li>
+				<li id="current"><a href="#">Freifunk Rothenburg</a></li>
+				<li><a href="http://meta-netmon.freifunk-emskirchen.de">Freifunk Franken Liste</a></li>
+				<li><a href="http://meta-netmon.freifunk-emskirchen.de/map.php">Freifunk Franken Map</a></li>
 			<!--	<li><a href="http://ticket.freifunk-ol.de/">Entwicklung</a></li>
 				<li><a href="http://wiki.freifunk-ol.de/w/Verein">Verein</a></li>  	-->
 			</ul>
